@@ -1,0 +1,788 @@
+[21-Apr-2024 07:43:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "print_r", expecting "," or ";" in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 3
+[21-Apr-2024 07:58:36 Europe/Berlin] PHP Warning:  Undefined variable $routesArray in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 5
+[21-Apr-2024 07:58:44 Europe/Berlin] PHP Warning:  Undefined variable $routesArray in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 5
+[21-Apr-2024 07:59:17 Europe/Berlin] PHP Warning:  Undefined variable $routesArray in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 5
+[22-Apr-2024 22:46:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 22
+[22-Apr-2024 22:46:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 22
+[23-Apr-2024 00:58:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo" in C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php on line 4
+[23-Apr-2024 04:02:05 Europe/Berlin] PHP Warning:  require_once(model/get.model.php): Failed to open stream: No such file or directory in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 3
+[23-Apr-2024 04:02:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'model/get.model.php' (include_path='C:\xampp2\php\PEAR') in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php:3
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(3): require_once()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(12): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 3
+[23-Apr-2024 04:02:13 Europe/Berlin] PHP Warning:  require_once(model/get.model.php): Failed to open stream: No such file or directory in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 3
+[23-Apr-2024 04:02:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'model/get.model.php' (include_path='C:\xampp2\php\PEAR') in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php:3
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(3): require_once()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(12): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 3
+[23-Apr-2024 04:42:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "(", expecting "{" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 21
+[23-Apr-2024 04:52:10 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: PDO - string in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:30
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(12): Connection::connect()
+#1 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 30
+[23-Apr-2024 05:03:14 Europe/Berlin] PHP Warning:  require_once(model/get.model.php): Failed to open stream: No such file or directory in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 3
+[23-Apr-2024 05:03:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'model/get.model.php' (include_path='C:\xampp2\php\PEAR') in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php:3
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(3): require_once()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 3
+[23-Apr-2024 05:06:48 Europe/Berlin] PHP Parse error:  Unmatched '}' in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 32
+[23-Apr-2024 05:07:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:16
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getData('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(7): GetController::getData('usuario')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 16
+[23-Apr-2024 05:12:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::excute() in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:10
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getData('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(7): GetController::getData('usuario')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 10
+[24-Apr-2024 01:44:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$return" in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 10
+[24-Apr-2024 02:02:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo", expecting ")" in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 24
+[24-Apr-2024 02:14:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method GetModel::getDatac() in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php:9
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(8): GetController::getDatac('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 9
+[24-Apr-2024 02:44:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method GetController::getDatam() in C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php:8
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php on line 8
+[24-Apr-2024 02:45:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method GetModel::getDatac() in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php:9
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(8): GetController::getDatac('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 9
+[24-Apr-2024 03:07:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method GetController::getData() in C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php:8
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php on line 8
+[24-Apr-2024 04:32:25 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function GetModel::getDatam(), 1 passed in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 9 and exactly 2 expected in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:6
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario', 'Usr_Nombre')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 6
+[24-Apr-2024 04:32:57 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function GetModel::getDatam(), 1 passed in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 9 and exactly 2 expected in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:6
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario', 'Usr_Nombre')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 6
+[24-Apr-2024 04:34:03 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function GetModel::getDatam(), 1 passed in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 9 and exactly 2 expected in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:6
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario', 'usuario.Usr_Nom...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 6
+[24-Apr-2024 04:50:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=*' at line 1 in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:11
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(11): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario?select=...', 'Usr_Nombre')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario?select=...', 'Usr_Nombre')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 11
+[24-Apr-2024 04:51:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=Usr_Id' at line 1 in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:11
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(11): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario?select=...', 'Usr_Nombre')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario?select=...', 'Usr_Nombre')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 11
+[24-Apr-2024 04:52:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=Usr_Id' at line 1 in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:11
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(11): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario?select=...', 'Usr_Id')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario?select=...', 'Usr_Id')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 11
+[24-Apr-2024 04:52:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=Usr_Id' at line 1 in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:11
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(11): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(9): GetModel::getDatam('usuario?select=...', 'Usr_Id')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(9): GetController::getDatac('usuario?select=...', 'Usr_Id')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 11
+[24-Apr-2024 06:57:37 Europe/Berlin] PHP Fatal error:  Cannot redeclare GetController::getDatac() in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 18
+[24-Apr-2024 07:00:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function bindParam() in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:23
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Id', 'Usr_Id', '1110577198')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Id', 'Usr_Id', '1110577198')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 23
+[24-Apr-2024 07:02:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function bindParam() in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:23
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Id', 'Usr_Id', '1110577198')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Id', 'Usr_Id', '1110577198')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 23
+[24-Apr-2024 07:47:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:40
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(40): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198|1')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198|1')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 40
+[24-Apr-2024 07:49:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ANDRol_Id = '1'' at line 1 in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:45
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(45): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198|1')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198|1')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 45
+[24-Apr-2024 07:51:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:46
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(46): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198|1')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198|1')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 46
+[24-Apr-2024 07:54:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:47
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(47): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198-1')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198-1')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 47
+[24-Apr-2024 07:56:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:47
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(47): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198-1')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198-1')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 47
+[24-Apr-2024 07:59:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "equalToArray" in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:47
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198-1')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198-1')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 47
+[24-Apr-2024 08:01:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', 'Usr_Nombre,Usr_...', 'Usr_Id,Rol_Id', '1110577198')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(28): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 02:02:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:03:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:05:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:05:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:07:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:08:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:08:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:08:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:09:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 02:09:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 50
+[25-Apr-2024 02:09:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 50
+[25-Apr-2024 02:10:13 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: explode() expects at least 2 arguments, 1 given in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php:25
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(25): explode('?u')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 25
+[25-Apr-2024 02:10:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "if" in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 27
+[25-Apr-2024 02:10:56 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: explode() expects at least 2 arguments, 1 given in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php:25
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(25): explode('?u')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php on line 25
+[25-Apr-2024 02:11:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function array_key() in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php:7
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 7
+[25-Apr-2024 02:14:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function array_key() in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php:7
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 7
+[25-Apr-2024 02:18:18 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 02:18:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 02:18:38 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 02:18:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 03:18:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::getColumnData() in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php:15
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 15
+[25-Apr-2024 03:18:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo" in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 16
+[25-Apr-2024 03:19:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo" in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 16
+[25-Apr-2024 03:19:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::conect() in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:48
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(15): Connection::getColumnsData(Array, Array)
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 48
+[25-Apr-2024 03:19:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::getColumnData() in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php:16
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#3 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 16
+[25-Apr-2024 03:20:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo" in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 16
+[25-Apr-2024 03:20:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo" in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 16
+[25-Apr-2024 03:21:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::conect() in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:48
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(16): Connection::getColumnsData(Array, Array)
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 48
+[25-Apr-2024 03:23:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:24:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Connection::conect() in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:48
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(16): Connection::getColumnsData(Array, Array)
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 48
+[25-Apr-2024 03:25:30 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:27:14 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:27:29 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:40:03 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:40:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:40:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "->" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:41:12 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 48
+[25-Apr-2024 03:45:34 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:45:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ind_proyecto_1_0' in 'where clause' in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php(49): PDO->query('SELECT COLUMN_N...')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(16): Connection::getColumnsData(Array, Array)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:47:31 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:47:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ind_proyecto_1_0' in 'where clause' in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php(49): PDO->query('SELECT COLUMN_N...')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(16): Connection::getColumnsData(Array, Array)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:47:46 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:49:39 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 3 in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 53
+[25-Apr-2024 03:49:47 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:50:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "public", expecting "::" in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 41
+[25-Apr-2024 03:51:15 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:51:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function query() in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:51
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(16): Connection::getColumnsData(Array, Array)
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#4 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 51
+[25-Apr-2024 03:52:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "echo" in C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php on line 16
+[25-Apr-2024 03:56:25 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:56:43 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:56:51 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:57:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'COLUMN_NAME' in 'field list' in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php(49): PDO->query('SELECT COLUMN_N...')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\post.php(15): Connection::getColumnsData(Array, Array)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(36): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 03:58:50 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 04:01:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\connection.php on line 49
+[25-Apr-2024 04:05:23 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:05:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 04:05:33 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:05:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:06:18 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:06:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:06:57 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:06:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:07:42 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:07:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 04:08:52 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:08:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 04:09:37 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:09:37 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 04:10:54 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:10:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:13:20 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:13:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 04:13:45 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:13:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:17
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(17): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 17
+[25-Apr-2024 04:14:48 Europe/Berlin] PHP Warning:  Undefined variable $sql in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 16
+[25-Apr-2024 04:14:48 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:16
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(16): PDO->prepare('')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 16
+[25-Apr-2024 04:16:24 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:16:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:17:02 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:17:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-2', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-2', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:17:07 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:17:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-3', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-3', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:17:25 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 42
+[25-Apr-2024 04:17:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:59
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(59): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(15): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 59
+[25-Apr-2024 04:18:36 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:18:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 04:19:48 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:19:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 04:19:49 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:19:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(19): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 04:20:07 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:20:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:20:34 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:20:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:22:00 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:22:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:22:59 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:22:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:26:49 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:26:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(20): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 04:32:36 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:32:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:34:35 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:34:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:34:36 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:34:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter(Array, 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:42:56 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 04:42:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(20): GetController::getDatac(Array, '*', NULL, NULL)
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 04:48:41 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 37
+[25-Apr-2024 04:48:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:49
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(49): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter('usuario', 'Usr_Id,Rol_Id', 'Usr_Nombre,Usr_...', 'Vale-Tobar', 'Usr_id', 'DESC')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 49
+[25-Apr-2024 04:51:54 Europe/Berlin] PHP Warning:  Undefined variable $stmt in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 45
+[25-Apr-2024 04:51:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bindParam() on null in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:45
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', '*', 'Usr_Id', '1110577198', NULL, NULL)
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(16): GetController::getDatacFilter('usuario', '*', 'Usr_Id', '1110577198', NULL, NULL)
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 45
+[25-Apr-2024 05:03:27 Europe/Berlin] PHP Warning:  Undefined variable $stmt in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 45
+[25-Apr-2024 05:03:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bindParam() on null in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:45
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', '*', 'Usr_Id', '1110577198')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', '*', 'Usr_Id', '1110577198')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 45
+[25-Apr-2024 05:08:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::biendParam() in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:22
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', '*', 'Usr_Id', '1110577198')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', '*', 'Usr_Id', '1110577198')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 22
+[25-Apr-2024 05:08:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::biendParam() in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:22
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(20): GetModel::getDatamFilter('usuario', '*', 'Usr_Id', '1110577198')
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(13): GetController::getDatacFilter('usuario', '*', 'Usr_Id', '1110577198')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 22
+[25-Apr-2024 05:37:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?linkTo=Usr_Id FROM usuario' at line 1 in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam('usuario', '*?linkTo=Usr_Id')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(17): GetController::getDatac('usuario', '*?linkTo=Usr_Id')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 06:08:07 Europe/Berlin] PHP Warning:  Undefined array key "status" in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 49
+[25-Apr-2024 06:11:43 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 49
+[25-Apr-2024 07:46:28 Europe/Berlin] PHP Warning:  Undefined array key "status" in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 49
+[25-Apr-2024 07:47:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 35
+[25-Apr-2024 07:48:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "}" in C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php on line 36
+[25-Apr-2024 08:16:05 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 9
+[25-Apr-2024 08:16:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.array' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam(Array, '*')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(17): GetController::getDatac(Array, '*')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12
+[25-Apr-2024 09:31:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ind_proyecto_1_0.apipro2' doesn't exist in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php:12
+Stack trace:
+#0 C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php(12): PDOStatement->execute()
+#1 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\get.controller.php(10): GetModel::getDatam('apipro2', '*')
+#2 C:\xampp2\htdocs\dashboard\apiproyecto\services\get.php(17): GetController::getDatac('apipro2', '*')
+#3 C:\xampp2\htdocs\dashboard\apiproyecto\routes\routes.php(29): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\dashboard\apiproyecto\controllers\routes.controller.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\dashboard\apiproyecto\index.php(17): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp2\htdocs\dashboard\apiproyecto\models\get.model.php on line 12

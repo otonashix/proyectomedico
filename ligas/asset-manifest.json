@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ligas/static/css/main.72ee316d.css",
+    "main.js": "/ligas/static/js/main.a8ffe96d.js",
+    "static/media/Liga-Nat-1.jpg": "/ligas/static/media/Liga-Nat-1.b62db6839bc0f28c7ba4.jpg",
+    "static/media/Liga-Cic-1.jpg": "/ligas/static/media/Liga-Cic-1.16f8701ecd142f31587b.jpg",
+    "static/media/Liga-Box-1.jpg": "/ligas/static/media/Liga-Box-1.cd95a6aba6add6750214.jpg",
+    "static/media/logo.png": "/ligas/static/media/logo.bbe7000d6a7c42e63976.png",
+    "static/media/Liga-Arq-1.jpg": "/ligas/static/media/Liga-Arq-1.00dda34e5f58e6eb5cc7.jpg",
+    "static/media/Liga-Esg-1.jpg": "/ligas/static/media/Liga-Esg-1.211b65eeb8c243ef7528.jpg",
+    "index.html": "/ligas/index.html",
+    "main.72ee316d.css.map": "/ligas/static/css/main.72ee316d.css.map",
+    "main.a8ffe96d.js.map": "/ligas/static/js/main.a8ffe96d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72ee316d.css",
+    "static/js/main.a8ffe96d.js"
+  ]
+}
